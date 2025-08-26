@@ -16,22 +16,23 @@ Output 2:
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 	printf("Program to input time in seconds and convert it to hours:minutes:seconds format.\n\n");
-	
+
 	int timeinSec;
 	printf("Enter time in seconds: ");
 	scanf("%d", &timeinSec);
-	
+
 	// Convert in format
 	int hours, minutes, seconds;
-	
+
 	hours = timeinSec / 3600;
 	minutes = (timeinSec % 3600) / 60;
 	seconds = timeinSec % 60;
-	
+
 	printf("%d seconds= %d:%d:%d\n\n", timeinSec, hours, minutes, seconds);
-	
+
 	return 0;
 }

@@ -16,19 +16,20 @@ Fahrenheit=212
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 	printf("Program to convert temperature from Celsius to Fahrenheit.\n\n");
-	
+
 	float temp, fahrenheit;
 	printf("Enter temperature in Celsius: ");
 	scanf("%f", &temp);
-	
+
 	// Convert to Fahrenheit
-	
-	fahrenheit = (temp*9/5) + 32;
-	
+
+	fahrenheit = (temp * 9 / 5) + 32;
+
 	printf("Fahrenheit: %f\n\n", fahrenheit);
-	
+
 	return 0;
 }

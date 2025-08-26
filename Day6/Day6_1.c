@@ -16,22 +16,23 @@ Output 2:
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 	printf("Program to input an integer and check whether it is even or odd using if–else.\n\n");
-	
+
 	int number;
 	printf("Enter a number: ");
 	scanf("%d", &number);
-	
+
 	if (number % 2 == 0)
 	{
-	printf("%d is even\n", number);
+		printf("%d is even\n", number);
 	}
 	else
 	{
-	printf("%d is odd\n", number);
+		printf("%d is odd\n", number);
 	}
-	
+
 	return 0;
 }

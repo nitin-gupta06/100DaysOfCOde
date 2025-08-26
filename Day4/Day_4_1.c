@@ -16,7 +16,8 @@ After swap: 14 7
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 	printf("Program to swap two numbers without using a third variable.\n\n");
 	int num1, num2;
@@ -24,12 +25,12 @@ int main() {
 	scanf("%d", &num1);
 	printf("Enter second number: ");
 	scanf("%d", &num2);
-	
-	num1=num1+num2;
-	num2=num1-num2;
-	num1=num1-num2;
-	
+
+	num1 = num1 + num2;
+	num2 = num1 - num2;
+	num1 = num1 - num2;
+
 	printf("After swap - First no.: %d , Second no. %d\n\n", num1, num2);
-	
+
 	return 0;
 }

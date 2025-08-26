@@ -16,23 +16,24 @@ After swap: 1 -1
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 	printf("Program to swap two numbers using a third variable.\n\n");
-	
-	int num1 , num2 , temp;
+
+	int num1, num2, temp;
 	printf("Enter first number: ");
 	scanf("%d", &num1);
 	printf("Enter second number: ");
 	scanf("%d", &num2);
-	
-	//Swap
-	
-	temp=num1;
-	num1=num2;
-	num2=temp;
-	
+
+	// Swap
+
+	temp = num1;
+	num1 = num2;
+	num2 = temp;
+
 	printf("After swap - First no.: %d , Second no. %d\n\n", num1, num2);
-	
+
 	return 0;
 }

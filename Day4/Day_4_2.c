@@ -16,17 +16,17 @@ Sum=55
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 	printf("Program to find and display the sum of the first n natural numbers.\n\n");
 	int n, sum;
 	printf("Enter a number: ");
 	scanf("%d", &n);
-	
-	sum=n*(n+1)/2;
-	
-	printf("Sum=%d\n\n",sum);
-	
-	
+
+	sum = n * (n + 1) / 2;
+
+	printf("Sum=%d\n\n", sum);
+
 	return 0;
 }

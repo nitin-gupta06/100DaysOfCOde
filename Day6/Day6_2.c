@@ -21,21 +21,28 @@ Positive
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
-	printf("Program to input an integer and check whether it is positive, negative or zero using nested if–else.\n\n");
-	
-	int number;
-	printf("Enter a number: ");
-	scanf("%d", &number);
-	
-	if (number >= 0) {
-        if (number == 0) {
+    printf("Program to input an integer and check whether it is positive, negative or zero using nested if–else.\n\n");
+
+    int number;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    if (number >= 0)
+    {
+        if (number == 0)
+        {
             printf("Zero.\n");
-        } else {
+        }
+        else
+        {
             printf("Positive.\n");
         }
-    } else {
+    }
+    else
+    {
         printf("Negative.\n");
     }
 

@@ -17,18 +17,19 @@ Sum = 19
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 	printf("Program to input two numbers and display their sum.\n\n");
 	int num1, num2, result;
-	
+
 	printf("Enter the first number: ");
 	scanf("%d", &num1);
 	printf("Enter second number: ");
 	scanf("%d", &num2);
-	
+
 	result = num1 + num2;
-	
-	printf("Sum of %d and %d is %d\n",num1 , num2 , result);
-	
+
+	printf("Sum of %d and %d is %d\n", num1, num2, result);
+
 	return 0;
 }
